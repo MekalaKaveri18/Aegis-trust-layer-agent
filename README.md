@@ -8,19 +8,11 @@ Policy-based data minimization. MCP integration. SDKs for AI applications. Agent
 
 ![Aegis product demo](docs/aegis-demo.mp4)
 
-The file is `docs/aegis-demo.mp4` in this repo (silent — on-screen captions, no voice). It starts on the landing page, then **Sign in** (email and password only — no guest shortcut) → create an account → Agent, Simulator (PII redacted / secret denied), Integrations (MCP and SDKs), and Eval.
+The file is `docs/aegis-demo.mp4` in this repo
 
 ## Live on Vercel
 
 **https://withaegis.vercel.app**
-
-Open that URL, then **Get started** and create an account. Creating an account signs you in and opens **Agent**. (Overview is `/command`.) Sign-in is email and password — there is no guest shortcut. This is a lasting production deploy on your Vercel account (project `aegis`), not a temporary link.
-
-Dashboard: [vercel.com/mekalakaveri18s-projects/aegis](https://vercel.com/mekalakaveri18s-projects/aegis)
-
-`aegis.app` is already registered, so it cannot be the hostname unless you own that domain. If you do, add it under the project **Settings → Domains**. The production aliases are `withaegis.vercel.app` and `aegis-amber-nu.vercel.app`.
-
-Sign-in uses a signed session cookie so Vercel serverless instances can verify the same session. Set `SESSION_SECRET` on the Vercel project for a stable production secret.
 
 Local preview stays **http://127.0.0.1:43147**.
 
